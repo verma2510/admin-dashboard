@@ -1,0 +1,76 @@
+.home{
+    margin-left: 60px;
+    padding: 20px;
+    background-color: rgb(241, 248, 254);
+}
+
+.homeWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeBreadcrumb{
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+
+.homeBreadcrumb strong{
+    color: black;
+    font-weight: normal;
+}
+
+.homeBreadcrumb span:hover{
+    color: black;
+}
+
+.leftSide{
+    display: flex;
+    align-items: center;
+}
+
+.leftSideLogo{
+    margin-left: 20px ;
+    font-size: 30px;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+
+.leftSide input{
+    /* font-size: 20px; */
+    /* padding: 20px; */
+    width: 300px;
+    height: 30px;
+    color: grey;
+    border-radius: 5px;
+    border: 0.1px solid grey;
+    /* border-style: groove; */
+    /* outline: 1px solid grey; */
+}
+
+.productFeatures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.exportButton{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    outline: 0.1px solid grey;
+}
+.addProductButton {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: 0.1px solid grey;
+
+}

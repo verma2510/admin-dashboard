@@ -1,0 +1,30 @@
+.tab {
+  display: inline-flex;
+  background: rgb(232, 244, 254);
+  /* padding: 10px; */
+  border-radius: 8px;
+  margin-top: 10px;
+  /* outline: 1px solid red; */
+}
+
+.buttonTab {
+  background: transparent;
+  border: none;
+  padding: 10px 10px;
+  font-size: 14px;
+  color: #6b7280;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buttonTab.active {
+  background: white;
+  font-weight: bold;
+  color: black;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttonTab:not(.active):hover {
+  color: black;
+}
